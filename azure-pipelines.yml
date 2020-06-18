@@ -15,4 +15,4 @@ steps:
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/kistipatiravireddy/myarmtemplates/master/azuredeploy.json'
     csmParametersFileLink: 'https://raw.githubusercontent.com/kistipatiravireddy/myarmtemplates/master/azuredeploy.parameters.json'
-    deploymentMode: 'Validation'
+    deploymentMode: 'Complete'
