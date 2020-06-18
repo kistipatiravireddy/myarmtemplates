@@ -98,7 +98,7 @@
               "sourceAddressPrefix":  "*",
               "destinationAddressPrefix":  "*"
             },
-             {
+          {
             "name":  "default-allow-22",
             "properties": {
               "priority":  1001,
