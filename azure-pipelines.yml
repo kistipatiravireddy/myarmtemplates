@@ -1,4 +1,5 @@
 # Starter pipeline
+steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
@@ -9,22 +10,5 @@
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/kistipatiravireddy/myarmtemplates/master/azuredeploy.json'
-    csmParametersFileLink: 'https://raw.githubusercontent.com/kistipatiravireddy/myarmtemplates/master/azuredeploy.parameter.json'
-    deploymentMode: 'Incremental'
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
-steps:
-- task: AzureResourceManagerTemplateDeployment@3
-  inputs:
-    deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'Sample-Connection'
-    subscriptionId: '903c571d-b081-4db2-a4bf-9e0821145b83'
-    action: 'Create Or Update Resource Group'
-    resourceGroupName: 'RG_RaviTest'
-    location: 'East US'
-    templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/kistipatiravireddy/myarmtemplates/master/azuredeploy.json'
     csmParametersFileLink: 'https://raw.githubusercontent.com/kistipatiravireddy/myarmtemplates/master/azuredeploy.parameters.json'
-    deploymentMode: 'Complete'
+    deploymentMode: 'Incremental'
