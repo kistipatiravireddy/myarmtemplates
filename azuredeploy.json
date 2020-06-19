@@ -97,18 +97,6 @@
               "sourcePortRange":  "*",
               "sourceAddressPrefix":  "*",
               "destinationAddressPrefix":  "*"
-            },
-           {
-            "name":  "default-allow-22",
-            "properties": {
-              "priority":  1001,
-              "access":  "Allow",
-              "direction":  "Inbound",
-              "destinationPortRange":  "22",
-              "protocol":  "Tcp",
-              "sourcePortRange":  "*",
-              "sourceAddressPrefix":  "*",
-              "destinationAddressPrefix":  "*"
             }
           }
         ]
