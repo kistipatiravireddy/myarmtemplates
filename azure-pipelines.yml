@@ -12,7 +12,6 @@ steps:
     csmFileLink: 'https://raw.githubusercontent.com/kistipatiravireddy/myarmtemplates/master/azuredeploy.json'
     csmParametersFileLink: 'https://raw.githubusercontent.com/kistipatiravireddy/myarmtemplates/master/azuredeploy.parameters.json'
     deploymentMode: 'Validation'
-steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
