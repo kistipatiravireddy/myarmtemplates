@@ -5,7 +5,7 @@
     azureResourceManagerConnection: 'Sample-connection'
     subscriptionId: '903c571d-b081-4db2-a4bf-9e0821145b83'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'NextOpsRGE01'
+    resourceGroupName: 'RaviTestRG'
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/kistipatiravireddy/myarmtemplates/master/azuredeploy.json'
